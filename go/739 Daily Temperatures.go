@@ -15,6 +15,10 @@ func dailyTemperatures(temperatures []int) []int {
 }
 
 /*
+complexity:
+	time: O(N) as every element happens to be in the stack once and never again
+	space: O(N) for the stack
+
 the main idea is to use decreasing monotonic stack:
 we store element's value as well as it's index in the stack.
 when the new element is proceeding,
