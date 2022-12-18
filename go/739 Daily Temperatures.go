@@ -13,3 +13,14 @@ func dailyTemperatures(temperatures []int) []int {
 	}
 	return ans
 }
+
+/*
+the main idea is to use decreasing monotonic stack:
+we store element's value as well as it's index in the stack.
+when the new element is proceeding,
+we pop all the elements ontop the stack that are less than current
+and immediately save answer for these popped (cur_index - their_index)
+why is it working? well, because we know that before current element
+there were no elements, that were greater than those in the stack,
+because otherwise, our alorithm'd kick them off at the first occurance.
+*/
