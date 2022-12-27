@@ -22,7 +22,7 @@ func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
 /*
 complexity:
 	time: O(NlogN) for sorting
-	space: O(1) or O(N) for sorting
+	space: O(logN) for sorting (specifically in go, using pdsqsort)
 
 the idea is pretty greedy. we first calculate what amount of rocks is left for every bag (capacity[i] - rocks[i]) and then just sort them from the less full to the most. we start fulfilling them from the start. when additionalRocks have ended, return ans
 */
