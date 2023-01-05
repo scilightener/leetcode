@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func possibleBipartition(n int, dislikes [][]int) bool {
 	graph, marks := make([][]int, n), make([]int, n)

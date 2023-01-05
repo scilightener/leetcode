@@ -1,4 +1,4 @@
-package _go
+package hard
 
 var (
 	moves   []int = []int{0, -1, 0, 1, 0}

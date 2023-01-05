@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func minimumRounds(tasks []int) int {
 	tasksCount := map[int]int{}

@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func allPathsSourceTarget(graph [][]int) [][]int {
 	paths := [][]int{}

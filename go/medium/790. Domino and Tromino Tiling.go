@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func numTilings(n int) int {
 	dp0, dp1, dp2, dp3 := 1, 0, 0, 1

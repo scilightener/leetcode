@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func dailyTemperatures(temperatures []int) []int {
 	mono_stack := make([][2]int, 0)

@@ -1,4 +1,4 @@
-package _go
+package hard
 
 var (
 	graph         map[int][]int

@@ -1,4 +1,4 @@
-package _go
+package easy
 
 func validPath(n int, edges [][]int, source int, destination int) bool {
 	graph := map[int][]int{}

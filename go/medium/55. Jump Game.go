@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func canJump(nums []int) bool {
 	disst := nums[0]

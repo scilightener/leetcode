@@ -1,4 +1,4 @@
-package _go
+package easy
 
 func detectCapitalUse(word string) bool {
 	if word[0] < 97 {

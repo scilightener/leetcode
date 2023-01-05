@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func canVisitAllRooms(rooms [][]int) bool {
 	graph := map[int][]int{}

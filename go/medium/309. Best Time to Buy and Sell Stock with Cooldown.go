@@ -1,4 +1,4 @@
-package _go
+package medium
 
 func maxProfit(prices []int) int {
 	buy1, buy2, sell1, sell2 := -1000, 0, 0, 0

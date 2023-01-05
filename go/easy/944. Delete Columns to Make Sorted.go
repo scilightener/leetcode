@@ -1,4 +1,4 @@
-package _go
+package easy
 
 func minDeletionSize(strs []string) int {
 	ans := 0
