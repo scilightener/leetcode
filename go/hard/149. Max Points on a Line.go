@@ -44,4 +44,7 @@ but to work with these vectors, you need to bring them to such a form that their
 to do this, we consider the GCD for these coordinates and divide them by it
 in the map, we increment the value of the given vector, thereby showing that we have found another point lying on the line given by this vector applied to the current point
 now the answer is just the maximum value of the given dictionary for all points + 1 bc we didn't consider the initial point in our calculations
+
+upd: oh, just found out, gcd is not necessary for this problem. direction vector can be given by the slope of the line e.g. ratio y/x
+time complexity could be only O(N^2)
 */
